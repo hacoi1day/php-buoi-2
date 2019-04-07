@@ -1,15 +1,17 @@
 <?php
 
 class Calculator {
-    // property
+    // propertys
     var $num1;
     var $num2;
 
+    // construct
     function __construct($num1, $num2) {
         $this->num1 = $num1;
         $this->num2 = $num2;
     }
 
+    // methods
     public function add() {
         return $this->num1 + $this->num2;
     }

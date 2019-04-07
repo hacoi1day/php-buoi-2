@@ -19,14 +19,6 @@
                 $result = $tinhtoan->multiple();
                 break;
             case 4:
-                // try {
-                //     if($num2 == 0) {
-                //         throw new Exception('num2 không được bằng 0.');
-                //     }
-                //     $result = $tinhtoan->devide();
-                // } catch(Exception $e) {
-                //     $result = $e->getMessage();
-                // }
                 $result = $tinhtoan->devide();
                 break;
         }
